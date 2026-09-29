@@ -44,7 +44,7 @@
 
     /* grey */
     --grey-0:#fff;
-    --grey-100:#B8B8B8;
+    --grey-100:#B8B8B8; 
     --grey-200:#686868;
     --grey-300:#3E3E3E;
     --grey-400:#2D2D2D;
@@ -92,6 +92,43 @@ main{
 .pad{display: none;}
 .mo{display: none;}
 
+.title-1{
+    font-weight: var(--fw2);
+}
+.desc-1{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:var(--gray-700);
+}
+
+.title{
+    /* border:1px solid red; */
+    text-align: center;
+    color:var(--gray-800);
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.title h1{
+    font-weight: var(--fw2);
+}
+.title span{
+    width: 1rem;
+    height: 0.125rem;
+    background-color: var(--gray-800);
+}
+
+main>section{
+    padding: var(--space-3x-large) 0;
+}
+
+
 @media (max-width:1024px){
     main{
         margin-top: 5rem;
@@ -116,5 +153,38 @@ main{
     }
     .common-frame{
         padding:0 var(--space-normal);
+    }
+}
+
+/* Grid list style copied from index.css .sale rules and renamed to .grid-list-style */
+.grid-list-style,
+.new-products{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(50px,1fr));
+    gap:3rem 1rem;
+}
+.grid-list-style li figure,
+.new-products li figure{
+    line-height: 0;
+    margin-bottom: 1.75rem;
+}
+.grid-list-style li figure img,
+.new-products li figure img{
+    width:100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.grid-list-style .grid-list-style-text,
+.new-products .products-txt{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+}
+
+@media (max-width:768px){
+    .grid-list-style,
+    .new-products{
+        grid-template-columns: repeat(2,minmax(50px,1fr));
     }
 }

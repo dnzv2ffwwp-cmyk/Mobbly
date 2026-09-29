@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html lang="ko">
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new-products</title>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,65 +14,14 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/produsts.css">
     <script src="./js/header.js"></script>
+    <script src="./js/new-products.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
 </head>
-<!-- 기본 SEO -->
-<title>MOBBLY | 아이의 하루를 위한 키즈 가구</title>
-
-<meta
-  name="description"
-  content="아이의 작은 일상을 더 편안하고 즐겁게 만드는 키즈 가구 브랜드 MOBBLY. 침대, 책상, 수납장, 소파 등 아이를 위한 안전하고 감각적인 가구를 만나보세요."
->
-
-<meta
-  name="keywords"
-  content="MOBBLY, 모블리, 키즈 가구, 아동 가구, 아이방 가구, 키즈 침대, 어린이 책상, 장난감 수납장, 키즈 소파"
->
-
-<meta name="robots" content="index, follow">
-
-<link
-  rel="canonical"
-  href="https://www.mobbly.co.kr/"
->
-
-<!-- SNS 공유 정보 -->
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="MOBBLY">
-<meta property="og:title" content="MOBBLY | 작은 공간, 커다란 상상">
-<meta
-  property="og:description"
-  content="잠자고, 배우고, 뛰어노는 아이의 모든 순간을 위한 키즈 가구를 만나보세요."
->
-<meta
-  property="og:image"
-  content="https://www.mobbly.co.kr/img/seo/mobbly-og-image.jpg"
->
-<meta property="og:url" content="https://www.mobbly.co.kr/">
-<meta property="og:locale" content="ko_KR">
-
-<!-- 카카오톡·트위터 공유 -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="MOBBLY | 아이의 하루를 위한 키즈 가구">
-<meta
-  name="twitter:description"
-  content="아이의 상상력과 편안한 일상을 위한 감각적인 키즈 가구 브랜드"
->
-<meta
-  name="twitter:image"
-  content="https://www.mobbly.co.kr/img/seo/mobbly-og-image.jpg"
->
-
-<!-- favicon -->
-<link rel="icon" href="img/MOBBLY_favicon_set/favicon.ico" sizes="any">
-<link rel="icon" href="./img/MOBBLY_favicon_set/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="img/MOBBLY_favicon_set/favicon-32x32.png" type="image/png" sizes="32x32">
-<link rel="apple-touch-icon" href="./apple-touch-icon.png">
-<link rel="manifest" href="./site.webmanifest">
-<meta name="theme-color" content="#25AAEE">
 
 <body>
     <!-- 데스크탑용 헤더 -->
@@ -826,499 +778,168 @@
 
         </div>
     </div>
+
     <main>
-        <!-- 히어로 배너 슬라이드 -->
-        <div class="swiper hero-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img class='pc' src="./img/banner/pc-hero banner (1).jpg" alt="당신의 공간은 ONDO에서 시작됩니다.">
-                    <img class='pad' src="./img/banner/hero banner - pad (1).jpg" alt="당신의 공간은 ONDO에서 시작됩니다.">
-                    <img class='mo' src="./img/banner/hero banner - mo (1).jpg" alt="당신의 공간은 ONDO에서 시작됩니다.">
-                </div>
-                <div class="swiper-slide">
-                    <img class='pc' src="./img/banner/pc-hero banner (2).jpg" alt="가장 사랑받는 베스트 가구를 30% 세일 할인가로 만나보세요">
-                    <img class='pad' src="./img/banner/hero banner - pad (2).jpg"
-                        alt="가장 사랑받는 베스트 가구를 30% 세일 할인가로 만나보세요">
-                    <img class='mo' src="./img/banner/hero banner - mo (2).jpg" alt="가장 사랑받는 베스트 가구를 30% 세일 할인가로 만나보세요">
-                </div>
-                <div class="swiper-slide">
-                    <img class='pc' src="./img/banner/pc-hero banner (3).jpg" alt="2026년 새로운 컬렉션의 가구가 출시되었습니다">
-                    <img class='pad' src="./img/banner/hero banner - pad (3).jpg" alt="2026년 새로운 컬렉션의 가구가 출시되었습니다">
-                    <img class='mo' src="./img/banner/hero banner - mo (3).jpg" alt="2026년 새로운 컬렉션의 가구가 출시되었습니다">
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
+        <div class="hero-banner">
+            <img src="" alt="">
         </div>
-        <script>
-            const station = new Swiper('.hero-slider', {
-                loop: true,
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                },
-                autoplay: {
-                    delay: 4000,
-                    disableOnInteraction: false,
-                },
-                speed: 1000
-            });
-        </script>
-        <div class="banner-line">
-            <div class="common-frame">
-                <span>NOTICE</span>
-                <h4>아이의 성장과 함께하는 편안한 키즈 가구</h4>
-                <p>모블리 인기 가구를 특별한 혜택으로 만나보세요</p>
-                <a href="#" class="btn-style">VIEW NOTICE <img src="./img/icon/arrow-right-line.svg"
-                        alt="공지사항 바로가기"></a>
-            </div>
-        </div>
+
         <section class="con1">
             <div class="common-frame">
                 <div class="title">
-                    <h1>Every Day, <span class="made-for">Made for</span> <span  class="kids">Kids</span>
+                    <h1>Discover a New Sense of Comfort.</span>
                     </h1>
                     <span></span>
-                    <p>아이의 모든 일상에 꼭 맞는 가구를 만나보세요.</p>
-                </div>
-                <div class="swiper cardlist-wrap">
-                <ul class="cardlist swiper-wrapper">
-                    <li class="swiper-slide">
-                        <a href="#">
-                            <div class="cover">ROOM</div>
-                            <img src="./img/banner/banner img (1).jpg" alt=" room">
-                        </a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="#">
-                            <div class="cover">DEN</div>
-                            <img src="./img/banner/banner img (2).jpg" alt="DEN">
-                        </a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="#">
-                            <div class="cover">PLAY</div>
-                            <img src="./img/banner/banner img (3).jpg" alt="PLAY">
-                        </a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="#">
-                            <div class="cover">STUDY</div>
-                            <img src="./img/banner/banner img (4).jpg" alt="STUDY">
-                        </a>
-                    </li>
-                </ul>
+                    <p>일상에 자연스럽게 스며드는 새로운 디자인</p>
                 </div>
             </div>
-            <script>
-                const cardlist = new Swiper('.cardlist-wrap', {
-                    breakpoints: {
-                        0: {
-                            slidesPerView: 1.2,
-                            spaceBetween: 12,
-                        },
-                        340: {
-                            slidesPerView: 2.2,
-                            spaceBetween: 12,
-                        },
-                        768: {
-                            slidesPerView: 3.2,
-                            spaceBetween: 14,
-                        },
-                        1024: {
-                            slidesPerView: 4,
-                            spaceBetween: 16,
-                        }
-                    },
-                    autoplay: {
-                        delay: 3000
-                    }
-                });
-            </script>
+            <ul class="new-products">
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (1).jpg" alt="Lune Sofa">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Lune Sofa</div>
+                            <div class="products-desc">부드러운 곡선과 포근한 부클레 패브릭의 3인 소파</div>
+                            <div class="products-pay">₩1,890,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (2).jpg" alt="Vela Lounge Chair">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Vela Lounge Chair</div>
+                            <div class="products-desc">감각적인 곡선 실루엣과 폭신한 착석감을 갖춘 라운지 체어</div>
+                            <div class="products-pay">₩890,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (3).jpg" alt="Reno Dining Table">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Reno Dining Table</div>
+                            <div class="products-desc">따뜻한 우드 컬러와 둥근 모서리로 완성한 모던 다이닝 테이블</div>
+                            <div class="products-pay">₩1,290,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (4).jpg" alt="Lino Dining Chair">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Lino Dining Chair</div>
+                            <div class="products-desc">브라운 가죽과 슬림한 메탈 프레임을 조합한 다이닝 체어</div>
+                            <div class="products-pay">₩420,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (5).jpg" alt="Noa Sideboard">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Noa Sideboard</div>
+                            <div class="products-desc">깊은 월넛 컬러와 넉넉한 수납공간이 돋보이는 사이드보드</div>
+                            <div class="products-pay">₩1,590,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (6).jpg" alt="Mellow Bed">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Mellow Bed</div>
+                            <div class="products-desc">패브릭 프레임과 둥근 헤드보드로 편안한 분위기를 완성한 침대</div>
+                            <div class="products-pay">₩1,790,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (7).jpg" alt="Dune Nightstand">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Dune Nightstand</div>
+                            <div class="products-desc">부드러운 곡선형 실루엣에 실용적인 수납을 더한 협탁</div>
+                            <div class="products-pay">₩490,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (8).jpg" alt="Arbor Bookshelf">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Arbor Bookshelf</div>
+                            <div class="products-desc">우드와 슬림 프레임이 조화를 이루는 오픈형 북선반</div>
+                            <div class="products-pay">₩1,090,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (9).jpg" alt="Elin Floor Lamp">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Elin Floor Lamp</div>
+                            <div class="products-desc">절제된 곡선과 은은한 조명으로 공간에 깊이를 더하는 플로어 램프</div>
+                            <div class="products-pay">₩390,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (10).jpg" alt="Wave Coffee Table">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Wave Coffee Table</div>
+                            <div class="products-desc">유려한 곡선형 하부와 글라스 상판이 돋보이는 커피 테이블</div>
+                            <div class="products-pay">₩790,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (11).jpg" alt="Linea Cabinet">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Linea Cabinet</div>
+                            <div class="products-desc">심플한 라인과 넉넉한 수납으로 공간을 정돈하는 캐비닛</div>
+                            <div class="products-pay">₩1,190,000</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="./img/2026 New products/2026 new (12).jpg" alt="Cloud Modular Sofa">
+                        </figure>
+                        <div class="products-txt">
+                            <div class="products-name">Cloud Modular Sofa</div>
+                            <div class="products-desc">자유로운 배치가 가능한 모듈 구조의 포근한 패브릭 소파</div>
+                            <div class="products-pay">₩2,290,000</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </section>
-        <section class="con2">
-            <div class="common-frame">
-                <div class="title">
-                    <h1>MOBBLY와 함께한 이야기</h1>
-                </div>
-            </div>
-            <div class="swiper review-story-wrap">
-                <ul class="review-story swiper-wrapper">
-                    <li class="swiper-slide">
-                        <figure>
-                            <img src="./img/review/444 가구 이미지01 (1).jpg" alt="아이가 먼저 찾는 책상이에요">
-                        </figure>
-                        <div class="story-text">
-                            <div class="story-stars">
-                                <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                    </div>
-                    <h4>아이가 먼저 찾는 책상이에요</h4>
-                    <p>높이가 아이에게 잘 맞고 모서리가 둥글게 마감되어 있어 안심돼요. 공부뿐만 아니라 그림을 그리거나 책을 읽을 때도 잘 사용하고 있어요.</p>
-                </div>
-                <div class="story-product">
-                    <a href="#">
-                        <figure>
-                            <span class="like-badge"><img src="./img/icon/heart.svg" alt="좋아요 하트">122</span>
-                            <img src="./img/review/100 가구 이미지 (1).jpg" alt="모블리 라운드 키즈 데스크">
-                        </figure>
-                        <div class="story-product-text">
-                            <div class="product-name">
-                                모블리 라운드 키즈 데스크
-                            </div>
-                            <div class="product-category">
-                                STUDY 학습
-                            </div>
-                            <div class="pay-original">
-                                <span>239,000원</span>
-                            </div>
-                            <div class="pay-discount">
-                                <div class="pay-discount-rate">21%</div>
-                                <div class="pay"><b>189,000</b>원</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="swiper-slide">
-                <figure>
-                    <img src="./img/review/444 가구 이미지01 (2).jpg" alt="수납공간이 넉넉해서 좋아요">
-                </figure>
-                <div class="story-text">
-                    <div class="story-stars">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                    </div>
-                    <h4>수납공간이 넉넉해서 좋아요</h4>
-                    <p>장난감과 그림책을 한 번에 정리할 수 있어서 방이 훨씬 깔끔해졌어요. 아이도 스스로 물건을 정리하는 습관이 생겼어요.</p>
-                </div>
-                <div class="story-product">
-                    <a href="#">
-                        <figure>
-                            <span class="like-badge"><img src="./img/icon/heart.svg" alt="좋아요 하트">567</span>
-                            <img src="./img/review/100 가구 이미지 (2).jpg" alt="플레이풀 토이 수납장">
-                        </figure>
-                        <div class="story-product-text">
-                            <div class="product-name">
-                                플레이풀 토이 수납장
-                            </div>
-                            <div class="product-category">
-                                STORAGE 수납
-                            </div>
-                            <div class="pay-original">
-                                <span>159,000원</span>
-                            </div>
-                            <div class="pay-discount">
-                                <div class="pay-discount-rate">19%</div>
-                                <div class="pay"><b>129,000</b>원</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="swiper-slide">
-                <figure>
-                    <img src="./img/review/444 가구 이미지01 (3).jpg" alt="디자인도 예쁘고 튼튼해요">
-                </figure>
-                <div class="story-text">
-                    <div class="story-stars">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                    </div>
-                    <h4>디자인도 예쁘고 튼튼해요</h4>
-                    <p>색상이 밝고 부드러워서 아이 방과 잘 어울려요. 흔들림 없이 튼튼하지만 조립할 때는 두 사람이 함께하는 게 편할 것 같아요.</p>
-                </div>
-                <div class="story-product">
-                    <a href="#">
-                        <figure>
-                            <span class="like-badge"><img src="./img/icon/heart.svg" alt="좋아요 하트">100</span>
-                            <img src="./img/review/100 가구 이미지 (3).jpg" alt="드림하우스 키즈 침대">
-                        </figure>
-                        <div class="story-product-text">
-                            <div class="product-name">
-                                드림하우스 키즈 침대
-                            </div>
-                            <div class="product-category">
-                                SLEEP 침실
-                            </div>
-                            <div class="pay-original">
-                                <span>579,000원</span>
-                            </div>
-                            <div class="pay-discount">
-                                <div class="pay-discount-rate">21%</div>
-                                <div class="pay"><b>459,000</b>원</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="swiper-slide">
-                <figure>
-                    <img src="./img/review/444 가구 이미지01 (4).jpg" alt="편안해서 아이가 정말 좋아해요">
-                </figure>
-                <div class="story-text">
-                    <div class="story-stars">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                        <img src="./img/review/star.svg" alt="like">
-                    </div>
-                    <h4>편안해서 아이가 정말 좋아해요</h4>
-                    <p>쿠션이 폭신하면서도 안정감이 있어서 아이가 앉아 책을 보거나 쉬기 좋아요. 크기도 부담스럽지 않아 작은 방에 두기에도 적당해요.</p>
-                </div>
-                <div class="story-product">
-                    <a href="#">
-                        <figure>
-                            <span class="like-badge"><img src="./img/icon/heart.svg" alt="좋아요 하트">96</span>
-                            <img src="./img/review/100 가구 이미지 (4).jpg" alt="포포 1인 키즈 소파">
-                        </figure>
-                        <div class="story-product-text">
-                            <div class="product-name">
-                                포포 1인 키즈 소파
-                            </div>
-                            <div class="product-category">
-                                PLAY 놀이
-                            </div>
-                            <div class="pay-original">
-                                <span>149,000원</span>
-                            </div>
-                            <div class="pay-discount">
-                                <div class="pay-discount-rate">20%</div>
-                                <div class="pay"><b>119,000</b>원</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-        </ul>
-    <script>
-            const reviewStory = new Swiper('.review-story-wrap', {
-                breakpoints: {
-                    0: {
-                        slidesPerView: 1.2,
-                        spaceBetween: 12,
-                    },
-                    340: {
-                        slidesPerView: 2.2,
-                        spaceBetween: 12,
-                    },
-                    768: {
-                        slidesPerView: 3.2,
-                        spaceBetween: 14,
-                    },
-                    1024: {
-                        slidesPerView: 4,
-                        spaceBetween: 16,
-                    }
-                },
-            })
-        </script>
-    </div>
-    </section>
-
-
-    <section class="con3"><div class="common-frame">
-                <div class="title">
-                    <h1>MOBBLY HAPPY DEAL</h1>
-                    <span></span>
-                    <p>놓치면 아쉬운 모블리 세일</p>
-                </div>
-                    <ul class="grid-list-style">
-                    <li>
-                        <a href="#">
-                            <figure>
-                                <img src="./img/sale/sale (1).jpg" alt="특가상품1">
-                            </figure>
-                            <div class="grid-list-style-text">
-                                <h4 class="title-1">몽글 하우스 키즈 침대</h4>
-                                <p class="desc-1">포근한 집 모양 프레임이 아이 방에 아늑하고 사랑스러운 분위기를 더해줘요.</p>
-                                <div class="pay-frame">
-                                    <div class="pay-original">
-                                        <span>599,000</span>원
-                                    </div>
-                                    <div class="pay-discount">
-                                        <div class="discount">17%</div>
-                                        <div class="pay"><b>499,000</b>원</div>
-                                    </div>
-                                </div>
-                                <span class="like-badge noab"><img src="./img/icon/heart.svg" alt="좋아요하트">541</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <figure>
-                                <img src="./img/sale/sale (2).jpg" alt="특가상품1">
-                            </figure>
-                            <div class="grid-list-style-text">
-                                <h4>포포 클라우드 키즈 소파</h4>
-                                <p>구름처럼 포근한 쿠션과 둥근 형태로 완성한
-                                아이만의 편안한 휴식 공간이에요.</p>
-                                <div class="pay-frame">
-                                    <div class="pay-original">
-                                        <span>249,000</span>원
-                                    </div>
-                                    <div class="pay-discount">
-                                        <div class="discount">20%</div>
-                                        <div class="pay"><b>199,000</b>원</div>
-                                    </div>
-                                </div>
-                                <span class="like-badge noab"><img src="./img/icon/heart.svg" alt="좋아요하트">562</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <figure>
-                                <img src="./img/sale/sale (3).jpg" alt="특가상품1">
-                            </figure>
-                            <div class="grid-list-style-text">
-                                <h4>LUNE 원목 라운드 테이블</h4>
-                                <p>자연스러운 오크의 결을 살린 라운드 테이블 공간에 부드러운 온기를 더해줍니다.</p>
-                                <div class="pay-frame">
-                                    <div class="pay-original">
-                                        <span>100,000</span>원
-                                    </div>
-                                    <div class="pay-discount">
-                                        <div class="discount">30%</div>
-                                        <div class="pay"><b>70,000</b>원</div>
-                                    </div>
-                                </div>
-                                <span class="like-badge noab"><img src="./img/icon/heart.svg" alt="좋아요하트">87</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <figure>
-                                <img src="./img/sale/sale (4).jpg" alt="특가상품1">
-                            </figure>
-                            <div class="grid-list-style-text">
-                                <h4>LUNE 원목 라운드 테이블</h4>
-                                <p>자연스러운 오크의 결을 살린 라운드 테이블 공간에 부드러운 온기를 더해줍니다.</p>
-                                <div class="pay-frame">
-                                    <div class="pay-original">
-                                        <span>100,000</span>원
-                                    </div>
-                                    <div class="pay-discount">
-                                        <div class="discount">30%</div>
-                                        <div class="pay"><b>70,000</b>원</div>
-                                    </div>
-                                </div>
-                                <span class="like-badge noab"><img src="./img/icon/heart.svg" alt="좋아요하트">87</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <figure>
-                                <img src="./img/sale/sale (5).jpg" alt="특가상품1">
-                            </figure>
-                            <div class="grid-list-style-text">
-                                <h4>LUNE 원목 라운드 테이블</h4>
-                                <p>자연스러운 오크의 결을 살린 라운드 테이블 공간에 부드러운 온기를 더해줍니다.</p>
-                                <div class="pay-frame">
-                                    <div class="pay-original">
-                                        <span>100,000</span>원
-                                    </div>
-                                    <div class="pay-discount">
-                                        <div class="discount">30%</div>
-                                        <div class="pay"><b>70,000</b>원</div>
-                                    </div>
-                                </div>
-                                <span class="like-badge noab"><img src="./img/icon/heart.svg" alt="좋아요하트">87</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <figure>
-                                <img src="./img/sale/sale (5).jpg" alt="특가상품1">
-                            </figure>
-                            <div class="grid-list-style-text">
-                                <h4>LUNE 원목 라운드 테이블</h4>
-                                <p>자연스러운 오크의 결을 살린 라운드 테이블 공간에 부드러운 온기를 더해줍니다.</p>
-                                <div class="pay-frame">
-                                    <div class="pay-original">
-                                        <span>100,000</span>원
-                                    </div>
-                                    <div class="pay-discount">
-                                        <div class="discount">30%</div>
-                                        <div class="pay"><b>70,000</b>원</div>
-                                    </div>
-                                </div>
-                                <span class="like-badge"><img src="./img/icon/heart.svg" alt="좋아요하트">87</span>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-</main>
-<!-- 푸터 -->
-<footer>
-    <div class="common-frame">
-        <div class="foot-navi">
-            <div class="foot1">
-                <ul class="footmenu">
-                    <li><a href="#">이용약관</a></li>
-                    <li class="stli"><a href="#">개인정보처리방침</a></li>
-                    <li><a href="#">이메일무단수집거부</a></li>
-                    <li><a href="#">사업자정보확인</a></li>
-                </ul>
-                    <dl class="coinfo">
-                        <dt>상호명</dt> 
-                        <dd>주식회사 모블리</dd>
-                        <dt>대표</dt> 
-                        <dd>정선민</dd>
-                        <dt>사업자등록번호</dt> 
-                        <dd>123-45-67890</dd>
-                        <dt>통신판매업신고</dt> 
-                        <dd>제2026-서울성동-01234호</dd>
-                        <dt>개인정보관리책임자</dt> 
-                        <dd>MOBBLY CX TEAM</dd>
-                        <dt>고객문의</dt> 
-                        <dd>help@mobbly.co.kr</dd>
-                        <dt>주소</dt> 
-                        <dd>서울특별시 성동구 성수이로 88, MOBBLY STUDIO</dd>
-                    </dl>
-                    <div class="foot2">
-                        <ul class="sns">
-                            <li><a href="#"><img src="./img/icon/uit_youtube.svg" alt="유튜브"></a></li>
-                            <li><a href="#"><img src="./img/icon/lets-icons_insta-light.svg" alt="인스타그램"></a></li>
-                        </ul>
-                        <div class="logof">
-                            <img src="./img/logo/rogo-black.svg" alt="mobbley logo black">
-                            <div class="slogan">Make your space, more lovely.</div>
-                            <div class="brand-desc"> 일상에 작은 즐거움을 더하는 가구 브랜드 모블리</div>
-                        </div>
-                    </div>
-            </div>
-            <div class="cscenter">
-                <div class="cscon">
-                    <h2>고객센터 <a href="tel:15882048">1588-2048</a></h2>
-                    <dl class="cstime">
-                        <dt>평일</dt>
-                        <dd>09:30 - 18:00</dd>
-                        <dt>점심시간</dt>
-                        <dd>12:30 - 13:30</dd>
-                        <dt>토일공휴일</dt>
-                        <dd>휴무</dd>
-                    </dl>
-                </div>
-        </div>
-        <div class="copy">© 2026 Mobbely Furniture. All Rights Reserved. 취업용도의 포트폴리오 홈페이지입니다.</div>
-    </div>
-</footer>
+    </main>
 </body>
-
 </html>

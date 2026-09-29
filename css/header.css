@@ -97,6 +97,8 @@ header{
         width:100%;
         left:0;
         top:0;
+        z-index: 1000;
+        background-color: #fff;
     }
     .logo img{height:5rem;}
     .smart-header .common-frame{
@@ -123,8 +125,9 @@ header{
         display: flex;
         flex-direction: column;
         transform: translateX(100%);
-        transition:all 0.6s ease 0s;
-        z-index: 110;
+        transition: transform 0.6s ease;
+        will-change: transform;
+        z-index: 1100;
     }
     .smart-overlay-menu.on{
         transform: translateX(0%);
@@ -141,6 +144,11 @@ header{
         top:50%;
         transform: translateY(-50%);
         line-height: 0;
+    }
+    .btn-menu,
+    .btn-menu-close{
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
     }
     .smart-overlay-menu-2 .common-frame{
         height:4.285rem;
@@ -192,6 +200,30 @@ header{
         display: flex;
         flex-direction: column;
         gap:1rem;
+    }
+
+    /* Keyboard accessibility: show submenus on focus-within */
+    .gnb > li:focus-within .gnb2depth,
+    .gnb > li:focus-within .gnb2depth-smart{
+        display: block;
+    }
+
+    /* Focus styles for interactive elements inside overlay */
+    .smart-overlay-menu a:focus{
+        outline: 3px solid var(--cream-500);
+        outline-offset: 3px;
+    }
+
+    /* Ensure links in dropdown are block-level for easier target */
+    .gnb2depth a,
+    .gnb2depth-smart a{
+        display: block;
+        padding: 0.125rem 0;
+    }
+
+    /* Provide visible focus for primary nav links */
+    .gnb > li > a:focus{
+        color: var(--sub-color);
     }
 
 
