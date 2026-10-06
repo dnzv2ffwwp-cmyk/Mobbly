@@ -72,6 +72,7 @@ header{
 }
 .gnb{
     display: flex;
+    padding-left: 3rem;
     gap: var(--space-normal);
     height:50px;
     font-weight: var(--fw2);

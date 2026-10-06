@@ -37,9 +37,44 @@ body {
 .product-title {
     max-width: 680px;
     overflow-wrap: anywhere;
+    font-size: var(--fs-h4);
+    font-weight: var(--fw2);
 }
 
+
 .product-txt { min-width: 0; }
+
+.product-txt p,
+.product-txt .desc-benefit,
+.product-txt .benefit-list span,
+.product-txt .benefit-list li,
+.product-txt .tip-benefit,
+.product-txt .pay-original,
+.product-txt .pay-discount,
+.product-txt .pay,
+.product-txt .discount {
+    font-size: var(--fs-body1);
+}
+
+.product-txt .pay-original,
+.product-txt .pay-discount,
+.product-txt .pay,
+.product-txt .discount {
+    font-weight: var(--fw2);
+}
+
+.product-txt .pay b,
+.product-txt .pay-info b,
+.product-txt .price-benefit b,
+.product-txt .pay-discount b {
+    color: var(--red);
+}
+
+.product-txt .pay-info b,
+.product-txt .pay b,
+.product-txt .pay-discount b {
+    font-weight: var(--fw2);
+}
 
 .benefit,
 .purchase-options {

@@ -7,7 +7,13 @@
 .product-img {
     width: 41%;
 }
-
+.products-name{
+    font-weight: 700;
+}
+.products-pay{
+    font-weight: 700;
+    color: var(--red);
+}
 .thumbnail-big {
     width: 100%;
     aspect-ratio: 1 / 1;
