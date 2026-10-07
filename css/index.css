@@ -59,7 +59,10 @@
     height:0.875rem;
 }
 .con1{
-    padding: var(--space-3x-large) 0;
+    padding: 1rem;
+}
+.con1 .title h1{
+    margin-top: 3rem;
 }
 
 
@@ -238,7 +241,7 @@
     color:var(--red);
 }
 .story-text{
-    font-weight: var(--fw2);
+    font-weight: var(--fw1);
 }
 
 @media (max-width:1250px){

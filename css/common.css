@@ -85,7 +85,6 @@ main{
     margin-top: 154px;
 }
 .common-frame{
-    padding: 0 var(--space-2x-small);
     /* border: 3px solid blue; */
 }
 .pc{display: block;}
@@ -125,7 +124,7 @@ main{
 }
 
 main>section{
-    padding: var(--space-3x-large) 0;
+    padding: var(--space-2x-large) ;
 }
 
 
